@@ -46,7 +46,7 @@ class helpstaff {
                 .addField('kick [user] [reason]', kickcmdhelp)
                 .addField('ban [user] [reason]', bancmdhelp)
                 .addField('mute/unmute [user] [reason]', muteunmutecmd)
-                .addField('purge [number]', clearhelp)
+                .addField('sweep [number]', clearhelp)
                 .setFooter('Support server: https://discord.gg/uaDP8Xc');
             if (!msgObject.member.roles.find(r => r.name === "『Staff』")) {
                 msgObject.channel.send(`ERROR | Insufficient permission for ${msgObject.author.username} | Contact staff if it's still occurred.`);
