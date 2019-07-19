@@ -48,11 +48,11 @@ class embedwhile {
                 .setColor(0xf0b00e)
                 .setDescription(` 
 Staff are not responsible for what it's posted on this server and are also not responsible for who accesses the channel containing NSFW images or conversations and NSFW roles, because you are applied the roles by yourself.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━
 Discord's ToS and Community Guidelines.
 https://discordapp.com/terms
 https://discordapp.com/guidelines
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━
 Any DM ADs or User Reports must be sent to 
 ${KITMAILMENTIONS}.
             
@@ -60,7 +60,7 @@ Any Staff Complaints must be sent to ${KITMAILMENTIONS} or report it on ${SUPPOR
 They will be handled by ${ADMINISTRATORROLE} or ${OWNERROLE}.
             
 __**​Ignoring the rules does not exclude you from them.**__
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━
 ​__**You are expected to have read and understood all rules listed below.**__`)
                 .addField('**• No Spamming.**', rulespam)
                 .setThumbnail(msgObject.guild.iconURL)
