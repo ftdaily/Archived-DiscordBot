@@ -24,7 +24,7 @@ class embed {
             const PREFIX = "k!";
             let staffchat = args.slice(0).join(" ") || "";
             let staffchatembed = new Discord.RichEmbed()
-                .setColor(0xff0d00)
+                .setColor(0xeb610c)
                 .setAuthor('Embed')
                 .setTitle(`**From: ${msgObject.author.username}.**`)
                 .setDescription(`Message: 
