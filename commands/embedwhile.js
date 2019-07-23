@@ -22,7 +22,7 @@ class embedwhile {
     runCommand(args, msgObject, client) {
         return __awaiter(this, void 0, void 0, function* () {
             let ADMINISTRATORROLE = msgObject.guild.roles.find(r => r.name === "✪ Administrator");
-            let OWNERROLE = msgObject.guild.roles.find(r => r.name === "🛡 Warder");
+            let OWNERROLE = msgObject.guild.roles.find(r => r.name === "🛡 Helper");
             let WARDERROLE = msgObject.guild.roles.find(r => r.name === "✪ Owner ");
             let KITMAILMENTIONS = msgObject.guild.members.find(m => m.displayName === "NekoMail");
             let SUPPORTCHANNEL = msgObject.guild.channels.find(c => c.name === "🚨support🚨");
